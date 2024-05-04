@@ -21,6 +21,7 @@ test.d.ts
 .c9/
 *.launch
 .settings/
+hass/config
 *.sublime-workspace
 
 # IDE - VSCode
