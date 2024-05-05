@@ -21,7 +21,7 @@
   "dependencies": {
     "@digital-alchemy/automation": "^0.3.6",
     "@digital-alchemy/core": "^0.3.13",
-    "@digital-alchemy/hass": "^0.3.22",
+    "@digital-alchemy/hass": "^0.3.23",
     "@digital-alchemy/synapse": "^0.3.5",
     "dayjs": "^1.11.11"
   },
@@ -56,5 +56,26 @@
     "tsx": "^4.7.2",
     "type-fest": "^4.15.0",
     "typescript": "^5.4.5"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "moduleFileExtensions": [
+      "ts",
+      "js",
+      "json",
+      "node"
+    ],
+    "testMatch": [
+      "**/?(*.)+(spec|test).ts"
+    ],
+    "transform": {
+      "^.+\\.ts$": [
+        "ts-jest",
+        {
+          "tsconfig": "tsconfig.spec.json"
+        }
+      ]
+    }
   }
 }

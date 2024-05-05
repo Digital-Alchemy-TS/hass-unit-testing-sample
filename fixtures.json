@@ -28,6 +28,136 @@
       "picture": null
     }
   ],
+  "config": {
+    "latitude": 52.3731339,
+    "longitude": 4.8903147,
+    "elevation": 0,
+    "unit_system": {
+      "length": "mi",
+      "accumulated_precipitation": "in",
+      "mass": "lb",
+      "pressure": "psi",
+      "temperature": "°F",
+      "volume": "gal",
+      "wind_speed": "mph"
+    },
+    "location_name": "Home",
+    "time_zone": "America/Chicago",
+    "components": [
+      "conversation",
+      "zone",
+      "tag",
+      "usb",
+      "binary_sensor",
+      "google_translate.tts",
+      "sun.sensor",
+      "synapse.button",
+      "energy.sensor",
+      "synapse.sensor",
+      "websocket_api",
+      "ssdp",
+      "homeassistant_alerts",
+      "device_automation",
+      "system_log",
+      "stt",
+      "synapse.binary_sensor",
+      "holiday.calendar",
+      "sensor",
+      "blueprint",
+      "media_source",
+      "google_translate",
+      "lovelace",
+      "counter",
+      "wake_word",
+      "automation",
+      "backup",
+      "holiday",
+      "application_credentials",
+      "bluetooth_adapters",
+      "logger",
+      "system_health",
+      "homeassistant",
+      "logbook",
+      "homeassistant.scene",
+      "synapse.scene",
+      "http",
+      "energy",
+      "map",
+      "cloud.tts",
+      "persistent_notification",
+      "history",
+      "input_number",
+      "image_upload",
+      "tts",
+      "frontend",
+      "ffmpeg",
+      "timer",
+      "config",
+      "input_text",
+      "zeroconf",
+      "dhcp",
+      "analytics",
+      "hardware",
+      "file_upload",
+      "button",
+      "input_boolean",
+      "shopping_list",
+      "input_select",
+      "calendar",
+      "trace",
+      "scene",
+      "radio_browser",
+      "stream",
+      "repairs",
+      "input_button",
+      "script",
+      "auth",
+      "synapse",
+      "search",
+      "cloud",
+      "webhook",
+      "default_config",
+      "sun",
+      "todo",
+      "api",
+      "person",
+      "network",
+      "assist_pipeline",
+      "mobile_app",
+      "schedule",
+      "notify",
+      "recorder",
+      "synapse.switch",
+      "shopping_list.todo",
+      "mobile_app.notify",
+      "onboarding",
+      "bluetooth",
+      "switch",
+      "my",
+      "diagnostics",
+      "input_datetime"
+    ],
+    "config_dir": "/config",
+    "whitelist_external_dirs": [
+      "/config/www",
+      "/media"
+    ],
+    "allowlist_external_dirs": [
+      "/config/www",
+      "/media"
+    ],
+    "allowlist_external_urls": [],
+    "version": "2024.4.4",
+    "config_source": "storage",
+    "recovery_mode": false,
+    "state": "RUNNING",
+    "external_url": null,
+    "internal_url": null,
+    "currency": "USD",
+    "country": "US",
+    "language": "en",
+    "safe_mode": false
+  },
   "devices": [
     {
       "area_id": null,
@@ -93,11 +223,11 @@
         "device_trackers": [],
         "friendly_name": "digital-alchemy"
       },
-      "last_changed": "2024-05-04T02:20:39.338721+00:00",
-      "last_reported": "2024-05-04T02:20:41.246490+00:00",
-      "last_updated": "2024-05-04T02:20:41.246490+00:00",
+      "last_changed": "2024-05-04T14:42:58.930742+00:00",
+      "last_reported": "2024-05-04T14:43:00.521840+00:00",
+      "last_updated": "2024-05-04T14:43:00.521840+00:00",
       "context": {
-        "id": "01HX0PEMCYGWYEMND056P3VYKB",
+        "id": "01HX20XVS9YPRNM5TTA1WQ2J1M",
         "parent_id": null,
         "user_id": null
       }
@@ -115,51 +245,51 @@
         "icon": "mdi:home",
         "friendly_name": "Home"
       },
-      "last_changed": "2024-05-04T02:20:40.370452+00:00",
-      "last_reported": "2024-05-04T02:20:40.370452+00:00",
-      "last_updated": "2024-05-04T02:20:40.370452+00:00",
+      "last_changed": "2024-05-04T14:42:59.642933+00:00",
+      "last_reported": "2024-05-04T14:42:59.642933+00:00",
+      "last_updated": "2024-05-04T14:42:59.642933+00:00",
       "context": {
-        "id": "01HX0PEKHJ3NV6V4BSWBJAM4AJ",
+        "id": "01HX20XTXT5TGJ7ZC3AFKK7AFX",
         "parent_id": null,
         "user_id": null
       }
     },
     {
       "entity_id": "sun.sun",
-      "state": "below_horizon",
+      "state": "above_horizon",
       "attributes": {
-        "next_dawn": "2024-05-04T03:22:39.045530+00:00",
+        "next_dawn": "2024-05-05T03:20:33.630700+00:00",
         "next_dusk": "2024-05-04T19:53:06.031053+00:00",
         "next_midnight": "2024-05-04T23:37:07+00:00",
-        "next_noon": "2024-05-04T11:37:13+00:00",
-        "next_rising": "2024-05-04T04:03:25.710681+00:00",
+        "next_noon": "2024-05-05T11:37:08+00:00",
+        "next_rising": "2024-05-05T04:01:35.017439+00:00",
         "next_setting": "2024-05-04T19:12:02.288174+00:00",
-        "elevation": -12.94,
-        "azimuth": 40.18,
-        "rising": true,
+        "elevation": 38.71,
+        "azimuth": 243.09,
+        "rising": false,
         "friendly_name": "Sun"
       },
-      "last_changed": "2024-05-04T02:20:41.161599+00:00",
-      "last_reported": "2024-05-04T02:20:41.161599+00:00",
-      "last_updated": "2024-05-04T02:20:41.161599+00:00",
+      "last_changed": "2024-05-04T14:43:00.004546+00:00",
+      "last_reported": "2024-05-04T14:43:00.004546+00:00",
+      "last_updated": "2024-05-04T14:43:00.004546+00:00",
       "context": {
-        "id": "01HX0PEMA9JAW1SESXZRHG7YH7",
+        "id": "01HX20XV94PNX9HW2H8Y9ZDK4Z",
         "parent_id": null,
         "user_id": null
       }
     },
     {
       "entity_id": "sensor.sun_next_dawn",
-      "state": "2024-05-04T03:22:39+00:00",
+      "state": "2024-05-05T03:20:33+00:00",
       "attributes": {
         "device_class": "timestamp",
         "friendly_name": "Sun Next dawn"
       },
-      "last_changed": "2024-05-04T02:20:41.162297+00:00",
-      "last_reported": "2024-05-04T02:20:41.162297+00:00",
-      "last_updated": "2024-05-04T02:20:41.162297+00:00",
+      "last_changed": "2024-05-04T14:43:00.005717+00:00",
+      "last_reported": "2024-05-04T14:43:00.005717+00:00",
+      "last_updated": "2024-05-04T14:43:00.005717+00:00",
       "context": {
-        "id": "01HX0PEMAAEWMFDVG5TKYEFD51",
+        "id": "01HX20XV95S5HFNA1VR1BF41VJ",
         "parent_id": null,
         "user_id": null
       }
@@ -171,11 +301,11 @@
         "device_class": "timestamp",
         "friendly_name": "Sun Next dusk"
       },
-      "last_changed": "2024-05-04T02:20:41.162474+00:00",
-      "last_reported": "2024-05-04T02:20:41.162474+00:00",
-      "last_updated": "2024-05-04T02:20:41.162474+00:00",
+      "last_changed": "2024-05-04T14:43:00.005844+00:00",
+      "last_reported": "2024-05-04T14:43:00.005844+00:00",
+      "last_updated": "2024-05-04T14:43:00.005844+00:00",
       "context": {
-        "id": "01HX0PEMAA5R2W6CPTSCNXZNJX",
+        "id": "01HX20XV959AZ2HRQD5Y0592FB",
         "parent_id": null,
         "user_id": null
       }
@@ -187,43 +317,43 @@
         "device_class": "timestamp",
         "friendly_name": "Sun Next midnight"
       },
-      "last_changed": "2024-05-04T02:20:41.162614+00:00",
-      "last_reported": "2024-05-04T02:20:41.162614+00:00",
-      "last_updated": "2024-05-04T02:20:41.162614+00:00",
+      "last_changed": "2024-05-04T14:43:00.005939+00:00",
+      "last_reported": "2024-05-04T14:43:00.005939+00:00",
+      "last_updated": "2024-05-04T14:43:00.005939+00:00",
       "context": {
-        "id": "01HX0PEMAAN1TZH3KEV6K0KB3R",
+        "id": "01HX20XV950N92R47YEQE8N2A0",
         "parent_id": null,
         "user_id": null
       }
     },
     {
       "entity_id": "sensor.sun_next_noon",
-      "state": "2024-05-04T11:37:13+00:00",
+      "state": "2024-05-05T11:37:08+00:00",
       "attributes": {
         "device_class": "timestamp",
         "friendly_name": "Sun Next noon"
       },
-      "last_changed": "2024-05-04T02:20:41.162766+00:00",
-      "last_reported": "2024-05-04T02:20:41.162766+00:00",
-      "last_updated": "2024-05-04T02:20:41.162766+00:00",
+      "last_changed": "2024-05-04T14:43:00.006030+00:00",
+      "last_reported": "2024-05-04T14:43:00.006030+00:00",
+      "last_updated": "2024-05-04T14:43:00.006030+00:00",
       "context": {
-        "id": "01HX0PEMAAXKQ1Z01XW493XMZY",
+        "id": "01HX20XV96GWXGNE95K5HTBTK7",
         "parent_id": null,
         "user_id": null
       }
     },
     {
       "entity_id": "sensor.sun_next_rising",
-      "state": "2024-05-04T04:03:25+00:00",
+      "state": "2024-05-05T04:01:35+00:00",
       "attributes": {
         "device_class": "timestamp",
         "friendly_name": "Sun Next rising"
       },
-      "last_changed": "2024-05-04T02:20:41.162956+00:00",
-      "last_reported": "2024-05-04T02:20:41.162956+00:00",
-      "last_updated": "2024-05-04T02:20:41.162956+00:00",
+      "last_changed": "2024-05-04T14:43:00.006115+00:00",
+      "last_reported": "2024-05-04T14:43:00.006115+00:00",
+      "last_updated": "2024-05-04T14:43:00.006115+00:00",
       "context": {
-        "id": "01HX0PEMAAQETRSJW1FN47845V",
+        "id": "01HX20XV96K2S0KYWREWCZNKNY",
         "parent_id": null,
         "user_id": null
       }
@@ -235,11 +365,11 @@
         "device_class": "timestamp",
         "friendly_name": "Sun Next setting"
       },
-      "last_changed": "2024-05-04T02:20:41.163134+00:00",
-      "last_reported": "2024-05-04T02:20:41.163134+00:00",
-      "last_updated": "2024-05-04T02:20:41.163134+00:00",
+      "last_changed": "2024-05-04T14:43:00.006192+00:00",
+      "last_reported": "2024-05-04T14:43:00.006192+00:00",
+      "last_updated": "2024-05-04T14:43:00.006192+00:00",
       "context": {
-        "id": "01HX0PEMAB52WVZM1YXDG68H81",
+        "id": "01HX20XV9611Q7CJA3GCWQYEVG",
         "parent_id": null,
         "user_id": null
       }
@@ -253,43 +383,29 @@
         "friendly_name": "magic",
         "supported_features": 0
       },
-      "last_changed": "2024-05-04T02:20:41.246290+00:00",
-      "last_reported": "2024-05-04T02:20:41.246290+00:00",
-      "last_updated": "2024-05-04T02:20:41.246290+00:00",
+      "last_changed": "2024-05-04T14:43:00.521381+00:00",
+      "last_reported": "2024-05-04T14:43:00.521381+00:00",
+      "last_updated": "2024-05-04T14:43:00.521381+00:00",
       "context": {
-        "id": "01HX0PEMCYK3WCDRZQADJVMDRH",
+        "id": "01HX20XVS9K3WCDRZQADJVMDRH",
         "parent_id": null,
         "user_id": null
       }
     },
     {
       "entity_id": "sensor.location",
-      "state": "",
+      "state": "unavailable",
       "attributes": {
-        "Managed By": "entity_generator",
+        "restored": true,
         "icon": "mdi:satellite-uplink",
-        "friendly_name": "Location"
+        "friendly_name": "Location",
+        "supported_features": 0
       },
-      "last_changed": "2024-05-04T02:23:41.450526+00:00",
-      "last_reported": "2024-05-04T02:23:41.450526+00:00",
-      "last_updated": "2024-05-04T02:23:41.450526+00:00",
+      "last_changed": "2024-05-04T14:43:00.521559+00:00",
+      "last_reported": "2024-05-04T14:43:00.521559+00:00",
+      "last_updated": "2024-05-04T14:43:00.521559+00:00",
       "context": {
-        "id": "01HX0PM4CA4JM7ENS5GZPDX4FT",
-        "parent_id": null,
-        "user_id": null
-      }
-    },
-    {
-      "entity_id": "tts.google_en_com",
-      "state": "unknown",
-      "attributes": {
-        "friendly_name": "Google en com"
-      },
-      "last_changed": "2024-05-04T02:20:41.175713+00:00",
-      "last_reported": "2024-05-04T02:20:41.175713+00:00",
-      "last_updated": "2024-05-04T02:20:41.175713+00:00",
-      "context": {
-        "id": "01HX0PEMAQER1HG243KSQVZ2WQ",
+        "id": "01HX20XVS9S4AW261JTV5WE21A",
         "parent_id": null,
         "user_id": null
       }
@@ -301,11 +417,26 @@
         "friendly_name": "Shopping List",
         "supported_features": 15
       },
-      "last_changed": "2024-05-04T02:20:41.180704+00:00",
-      "last_reported": "2024-05-04T02:20:41.180704+00:00",
-      "last_updated": "2024-05-04T02:20:41.180704+00:00",
+      "last_changed": "2024-05-04T14:43:00.144116+00:00",
+      "last_reported": "2024-05-04T14:43:00.144116+00:00",
+      "last_updated": "2024-05-04T14:43:00.144116+00:00",
       "context": {
-        "id": "01HX0PEMAWYQYGEW4GJRSVXB9E",
+        "id": "01HX20XVDGE2KKRRK2Q78AJ4WK",
+        "parent_id": null,
+        "user_id": null
+      }
+    },
+    {
+      "entity_id": "tts.google_en_com",
+      "state": "unknown",
+      "attributes": {
+        "friendly_name": "Google en com"
+      },
+      "last_changed": "2024-05-04T14:43:00.156289+00:00",
+      "last_reported": "2024-05-04T14:43:00.156289+00:00",
+      "last_updated": "2024-05-04T14:43:00.156289+00:00",
+      "context": {
+        "id": "01HX20XVDW20DA0PE9VCFJRE14",
         "parent_id": null,
         "user_id": null
       }
@@ -322,11 +453,11 @@
         "description": "",
         "friendly_name": "United States, TX"
       },
-      "last_changed": "2024-05-04T02:20:41.245693+00:00",
-      "last_reported": "2024-05-04T02:22:41.250557+00:00",
-      "last_updated": "2024-05-04T02:20:41.245693+00:00",
+      "last_changed": "2024-05-04T14:43:00.168599+00:00",
+      "last_reported": "2024-05-04T14:43:00.168599+00:00",
+      "last_updated": "2024-05-04T14:43:00.168599+00:00",
       "context": {
-        "id": "01HX0PEMCX7BK003CH3AYYVXCB",
+        "id": "01HX20XVE843FF1R6FX0QEE4Z6",
         "parent_id": null,
         "user_id": null
       }
@@ -339,11 +470,11 @@
         "friendly_name": "hass_e2e online",
         "supported_features": 0
       },
-      "last_changed": "2024-05-04T02:20:41.246264+00:00",
-      "last_reported": "2024-05-04T02:20:41.246264+00:00",
-      "last_updated": "2024-05-04T02:20:41.246264+00:00",
+      "last_changed": "2024-05-04T14:43:00.521327+00:00",
+      "last_reported": "2024-05-04T14:43:00.521327+00:00",
+      "last_updated": "2024-05-04T14:43:00.521327+00:00",
       "context": {
-        "id": "01HX0PEMCYRKJ9T2KV1JNER5KQ",
+        "id": "01HX20XVS9RKJ9T2KV1JNER5KQ",
         "parent_id": null,
         "user_id": null
       }
@@ -357,43 +488,46 @@
         "friendly_name": "toggles",
         "supported_features": 0
       },
-      "last_changed": "2024-05-04T02:20:41.246304+00:00",
-      "last_reported": "2024-05-04T02:20:41.246304+00:00",
-      "last_updated": "2024-05-04T02:20:41.246304+00:00",
+      "last_changed": "2024-05-04T14:43:00.521404+00:00",
+      "last_reported": "2024-05-04T14:43:00.521404+00:00",
+      "last_updated": "2024-05-04T14:43:00.521404+00:00",
       "context": {
-        "id": "01HX0PEMCY8DTYRM3NJ9RA8MWG",
+        "id": "01HX20XVS98DTYRM3NJ9RA8MWG",
         "parent_id": null,
         "user_id": null
       }
     },
     {
       "entity_id": "binary_sensor.entity_generator_online",
-      "state": "on",
+      "state": "unavailable",
       "attributes": {
-        "friendly_name": "entity_generator online"
+        "restored": true,
+        "friendly_name": "entity_generator online",
+        "supported_features": 0
       },
-      "last_changed": "2024-05-04T02:23:41.446842+00:00",
-      "last_reported": "2024-05-04T02:23:41.446842+00:00",
-      "last_updated": "2024-05-04T02:23:41.446842+00:00",
+      "last_changed": "2024-05-04T14:43:00.521489+00:00",
+      "last_reported": "2024-05-04T14:43:00.521489+00:00",
+      "last_updated": "2024-05-04T14:43:00.521489+00:00",
       "context": {
-        "id": "01HX0PM4C65JRA8PMA0Y6DSNJT",
+        "id": "01HX20XVS9GWYEMND056P3VYKB",
         "parent_id": null,
         "user_id": null
       }
     },
     {
       "entity_id": "binary_sensor.smoke_detector",
-      "state": "off",
+      "state": "unavailable",
       "attributes": {
-        "Managed By": "entity_generator",
+        "restored": true,
         "icon": "mdi:toggle-switch-variant-off",
-        "friendly_name": "Smoke detector"
+        "friendly_name": "Smoke detector",
+        "supported_features": 0
       },
-      "last_changed": "2024-05-04T02:23:41.450216+00:00",
-      "last_reported": "2024-05-04T02:23:41.450216+00:00",
-      "last_updated": "2024-05-04T02:23:41.450216+00:00",
+      "last_changed": "2024-05-04T14:43:00.521505+00:00",
+      "last_reported": "2024-05-04T14:43:00.521505+00:00",
+      "last_updated": "2024-05-04T14:43:00.521505+00:00",
       "context": {
-        "id": "01HX0PM4CANHQECQKWJBT6S75P",
+        "id": "01HX20XVS9693ASD0ZR45W0RKK",
         "parent_id": null,
         "user_id": null
       }
@@ -406,11 +540,11 @@
         "friendly_name": "bedroom_lamp",
         "supported_features": 0
       },
-      "last_changed": "2024-05-04T02:20:41.246315+00:00",
-      "last_reported": "2024-05-04T02:20:41.246315+00:00",
-      "last_updated": "2024-05-04T02:20:41.246315+00:00",
+      "last_changed": "2024-05-04T14:43:00.521423+00:00",
+      "last_reported": "2024-05-04T14:43:00.521423+00:00",
+      "last_updated": "2024-05-04T14:43:00.521423+00:00",
       "context": {
-        "id": "01HX0PEMCY4834FD6F7MYG56BG",
+        "id": "01HX20XVS94834FD6F7MYG56BG",
         "parent_id": null,
         "user_id": null
       }
@@ -423,11 +557,11 @@
         "friendly_name": "kitchen_cabinets",
         "supported_features": 0
       },
-      "last_changed": "2024-05-04T02:20:41.246325+00:00",
-      "last_reported": "2024-05-04T02:20:41.246325+00:00",
-      "last_updated": "2024-05-04T02:20:41.246325+00:00",
+      "last_changed": "2024-05-04T14:43:00.521442+00:00",
+      "last_reported": "2024-05-04T14:43:00.521442+00:00",
+      "last_updated": "2024-05-04T14:43:00.521442+00:00",
       "context": {
-        "id": "01HX0PEMCYJC17N1C0FW2738EX",
+        "id": "01HX20XVS9JC17N1C0FW2738EX",
         "parent_id": null,
         "user_id": null
       }
@@ -440,11 +574,11 @@
         "friendly_name": "living_room_mood_lights",
         "supported_features": 0
       },
-      "last_changed": "2024-05-04T02:20:41.246334+00:00",
-      "last_reported": "2024-05-04T02:20:41.246334+00:00",
-      "last_updated": "2024-05-04T02:20:41.246334+00:00",
+      "last_changed": "2024-05-04T14:43:00.521458+00:00",
+      "last_reported": "2024-05-04T14:43:00.521458+00:00",
+      "last_updated": "2024-05-04T14:43:00.521458+00:00",
       "context": {
-        "id": "01HX0PEMCYF25ESYKV9K0EFXXG",
+        "id": "01HX20XVS9F25ESYKV9K0EFXXG",
         "parent_id": null,
         "user_id": null
       }
@@ -457,59 +591,62 @@
         "friendly_name": "porch_light",
         "supported_features": 0
       },
-      "last_changed": "2024-05-04T02:20:41.246342+00:00",
-      "last_reported": "2024-05-04T02:20:41.246342+00:00",
-      "last_updated": "2024-05-04T02:20:41.246342+00:00",
+      "last_changed": "2024-05-04T14:43:00.521474+00:00",
+      "last_reported": "2024-05-04T14:43:00.521474+00:00",
+      "last_updated": "2024-05-04T14:43:00.521474+00:00",
       "context": {
-        "id": "01HX0PEMCYBNXC3KSBH487VZ35",
+        "id": "01HX20XVS9BNXC3KSBH487VZ35",
         "parent_id": null,
         "user_id": null
       }
     },
     {
       "entity_id": "scene.bedroom_high",
-      "state": "unknown",
+      "state": "unavailable",
       "attributes": {
-        "Managed By": "entity_generator",
-        "friendly_name": "bedroom_high"
+        "restored": true,
+        "friendly_name": "bedroom_high",
+        "supported_features": 0
       },
-      "last_changed": "2024-05-04T02:23:41.450332+00:00",
-      "last_reported": "2024-05-04T02:23:41.450332+00:00",
-      "last_updated": "2024-05-04T02:23:41.450332+00:00",
+      "last_changed": "2024-05-04T14:43:00.521520+00:00",
+      "last_reported": "2024-05-04T14:43:00.521520+00:00",
+      "last_updated": "2024-05-04T14:43:00.521520+00:00",
       "context": {
-        "id": "01HX0PM4CAQM8D07E8FB4XW83N",
+        "id": "01HX20XVS9H5DV00BCG21EE0V8",
         "parent_id": null,
         "user_id": null
       }
     },
     {
       "entity_id": "scene.bedroom_medium",
-      "state": "unknown",
+      "state": "unavailable",
       "attributes": {
-        "Managed By": "entity_generator",
-        "friendly_name": "bedroom_medium"
+        "restored": true,
+        "friendly_name": "bedroom_medium",
+        "supported_features": 0
       },
-      "last_changed": "2024-05-04T02:23:41.450390+00:00",
-      "last_reported": "2024-05-04T02:23:41.450390+00:00",
-      "last_updated": "2024-05-04T02:23:41.450390+00:00",
+      "last_changed": "2024-05-04T14:43:00.521534+00:00",
+      "last_reported": "2024-05-04T14:43:00.521534+00:00",
+      "last_updated": "2024-05-04T14:43:00.521534+00:00",
       "context": {
-        "id": "01HX0PM4CAMBZ9YXKGCRQE27PX",
+        "id": "01HX20XVS9PAHW2THWYBHM1X8F",
         "parent_id": null,
         "user_id": null
       }
     },
     {
       "entity_id": "scene.bedroom_low",
-      "state": "unknown",
+      "state": "unavailable",
       "attributes": {
-        "Managed By": "entity_generator",
-        "friendly_name": "bedroom_low"
+        "restored": true,
+        "friendly_name": "bedroom_low",
+        "supported_features": 0
       },
-      "last_changed": "2024-05-04T02:23:41.450446+00:00",
-      "last_reported": "2024-05-04T02:23:41.450446+00:00",
-      "last_updated": "2024-05-04T02:23:41.450446+00:00",
+      "last_changed": "2024-05-04T14:43:00.521547+00:00",
+      "last_reported": "2024-05-04T14:43:00.521547+00:00",
+      "last_updated": "2024-05-04T14:43:00.521547+00:00",
       "context": {
-        "id": "01HX0PM4CAW7CZNKS8QM88VYZ4",
+        "id": "01HX20XVS9FX660MFJMD2S93WV",
         "parent_id": null,
         "user_id": null
       }
@@ -1189,62 +1326,6 @@
   ],
   "services": [
     {
-      "domain": "persistent_notification",
-      "services": {
-        "create": {
-          "name": "Create",
-          "description": "Shows a notification on the **Notifications** panel.",
-          "fields": {
-            "message": {
-              "required": true,
-              "example": "Please check your configuration.yaml.",
-              "selector": {
-                "text": null
-              },
-              "name": "Message",
-              "description": "Message body of the notification."
-            },
-            "title": {
-              "example": "Test notification",
-              "selector": {
-                "text": null
-              },
-              "name": "Title",
-              "description": "Optional title of the notification."
-            },
-            "notification_id": {
-              "example": 1234,
-              "selector": {
-                "text": null
-              },
-              "name": "Notification ID",
-              "description": "ID of the notification. This new notification will overwrite an existing notification with the same ID."
-            }
-          }
-        },
-        "dismiss": {
-          "name": "Dismiss",
-          "description": "Removes a notification from the **Notifications** panel.",
-          "fields": {
-            "notification_id": {
-              "required": true,
-              "example": 1234,
-              "selector": {
-                "text": null
-              },
-              "name": "Notification ID",
-              "description": "ID of the notification to be removed."
-            }
-          }
-        },
-        "dismiss_all": {
-          "name": "Dismiss all",
-          "description": "Removes all notifications from the **Notifications** panel.",
-          "fields": {}
-        }
-      }
-    },
-    {
       "domain": "homeassistant",
       "services": {
         "save_persistent_states": {
@@ -1390,6 +1471,62 @@
         "reload_all": {
           "name": "Reload all",
           "description": "Reload all YAML configuration that can be reloaded without restarting Home Assistant.",
+          "fields": {}
+        }
+      }
+    },
+    {
+      "domain": "persistent_notification",
+      "services": {
+        "create": {
+          "name": "Create",
+          "description": "Shows a notification on the **Notifications** panel.",
+          "fields": {
+            "message": {
+              "required": true,
+              "example": "Please check your configuration.yaml.",
+              "selector": {
+                "text": null
+              },
+              "name": "Message",
+              "description": "Message body of the notification."
+            },
+            "title": {
+              "example": "Test notification",
+              "selector": {
+                "text": null
+              },
+              "name": "Title",
+              "description": "Optional title of the notification."
+            },
+            "notification_id": {
+              "example": 1234,
+              "selector": {
+                "text": null
+              },
+              "name": "Notification ID",
+              "description": "ID of the notification. This new notification will overwrite an existing notification with the same ID."
+            }
+          }
+        },
+        "dismiss": {
+          "name": "Dismiss",
+          "description": "Removes a notification from the **Notifications** panel.",
+          "fields": {
+            "notification_id": {
+              "required": true,
+              "example": 1234,
+              "selector": {
+                "text": null
+              },
+              "name": "Notification ID",
+              "description": "ID of the notification to be removed."
+            }
+          }
+        },
+        "dismiss_all": {
+          "name": "Dismiss all",
+          "description": "Removes all notifications from the **Notifications** panel.",
           "fields": {}
         }
       }
@@ -1908,54 +2045,201 @@
       }
     },
     {
-      "domain": "automation",
+      "domain": "timer",
       "services": {
-        "trigger": {
-          "name": "Trigger",
-          "description": "Triggers the actions of an automation.",
+        "reload": {
+          "name": "Reload",
+          "description": "Reloads timers from the YAML-configuration.",
+          "fields": {}
+        },
+        "start": {
+          "name": "Start",
+          "description": "Starts a timer.",
           "fields": {
-            "skip_condition": {
-              "default": true,
+            "duration": {
+              "example": "00:01:00 or 60",
               "selector": {
-                "boolean": null
+                "text": null
               },
-              "name": "Skip conditions",
-              "description": "Defines whether or not the conditions will be skipped."
+              "name": "Duration",
+              "description": "Duration the timer requires to finish. [optional]."
             }
           },
           "target": {
             "entity": [
               {
                 "domain": [
-                  "automation"
+                  "timer"
                 ]
               }
             ]
           }
         },
-        "toggle": {
-          "name": "Toggle",
-          "description": "Toggles (enable / disable) an automation.",
+        "pause": {
+          "name": "Pause",
+          "description": "Pauses a timer.",
           "fields": {},
           "target": {
             "entity": [
               {
                 "domain": [
-                  "automation"
+                  "timer"
                 ]
               }
             ]
           }
+        },
+        "cancel": {
+          "name": "Cancel",
+          "description": "Cancels a timer.",
+          "fields": {},
+          "target": {
+            "entity": [
+              {
+                "domain": [
+                  "timer"
+                ]
+              }
+            ]
+          }
+        },
+        "finish": {
+          "name": "Finish",
+          "description": "Finishes a timer.",
+          "fields": {},
+          "target": {
+            "entity": [
+              {
+                "domain": [
+                  "timer"
+                ]
+              }
+            ]
+          }
+        },
+        "change": {
+          "name": "Change",
+          "description": "Changes a timer.",
+          "fields": {
+            "duration": {
+              "default": 0,
+              "required": true,
+              "example": "00:01:00, 60 or -60",
+              "selector": {
+                "text": null
+              },
+              "name": "Duration",
+              "description": "Duration to add or subtract to the running timer."
+            }
+          },
+          "target": {
+            "entity": [
+              {
+                "domain": [
+                  "timer"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "domain": "conversation",
+      "services": {
+        "process": {
+          "name": "Process",
+          "description": "Launches a conversation from a transcribed text.",
+          "fields": {
+            "text": {
+              "example": "Turn all lights on",
+              "required": true,
+              "selector": {
+                "text": null
+              },
+              "name": "Text",
+              "description": "Transcribed text input."
+            },
+            "language": {
+              "example": "NL",
+              "selector": {
+                "text": null
+              },
+              "name": "Language",
+              "description": "Language of text. Defaults to server language."
+            },
+            "agent_id": {
+              "example": "homeassistant",
+              "selector": {
+                "conversation_agent": null
+              },
+              "name": "Agent",
+              "description": "Conversation agent to process your request. The conversation agent is the brains of your assistant. It processes the incoming text commands."
+            },
+            "conversation_id": {
+              "example": "my_conversation_1",
+              "selector": {
+                "text": null
+              },
+              "name": "Conversation ID",
+              "description": "ID of the conversation, to be able to continue a previous conversation"
+            }
+          },
+          "response": {
+            "optional": true
+          }
+        },
+        "reload": {
+          "name": "Reload",
+          "description": "Reloads the intent configuration.",
+          "fields": {
+            "language": {
+              "example": "NL",
+              "selector": {
+                "text": null
+              },
+              "name": "Language",
+              "description": "Language to clear cached intents for. Defaults to server language."
+            },
+            "agent_id": {
+              "example": "homeassistant",
+              "selector": {
+                "conversation_agent": null
+              },
+              "name": "Agent",
+              "description": "Conversation agent to reload."
+            }
+          }
+        }
+      }
+    },
+    {
+      "domain": "zone",
+      "services": {
+        "reload": {
+          "name": "Reload",
+          "description": "Reloads zones from the YAML-configuration.",
+          "fields": {}
+        }
+      }
+    },
+    {
+      "domain": "script",
+      "services": {
+        "reload": {
+          "name": "Reload",
+          "description": "Reloads all the available scripts.",
+          "fields": {}
         },
         "turn_on": {
           "name": "Turn on",
-          "description": "Enables an automation.",
+          "description": "Runs the sequence of actions defined in a script.",
           "fields": {},
           "target": {
             "entity": [
               {
                 "domain": [
-                  "automation"
+                  "script"
                 ]
               }
             ]
@@ -1963,31 +2247,83 @@
         },
         "turn_off": {
           "name": "Turn off",
-          "description": "Disables an automation.",
-          "fields": {
-            "stop_actions": {
-              "default": true,
-              "selector": {
-                "boolean": null
-              },
-              "name": "Stop actions",
-              "description": "Stops currently running actions."
-            }
-          },
+          "description": "Stops a running script.",
+          "fields": {},
           "target": {
             "entity": [
               {
                 "domain": [
-                  "automation"
+                  "script"
                 ]
               }
             ]
           }
         },
+        "toggle": {
+          "name": "Toggle",
+          "description": "Toggle a script. Starts it, if isn't running, stops it otherwise.",
+          "fields": {},
+          "target": {
+            "entity": [
+              {
+                "domain": [
+                  "script"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "domain": "input_boolean",
+      "services": {
         "reload": {
           "name": "Reload",
-          "description": "Reloads the automation configuration.",
+          "description": "Reloads helpers from the YAML-configuration.",
           "fields": {}
+        },
+        "turn_on": {
+          "name": "Turn on",
+          "description": "Turns on the helper.",
+          "fields": {},
+          "target": {
+            "entity": [
+              {
+                "domain": [
+                  "input_boolean"
+                ]
+              }
+            ]
+          }
+        },
+        "turn_off": {
+          "name": "Turn off",
+          "description": "Turns off the helper.",
+          "fields": {},
+          "target": {
+            "entity": [
+              {
+                "domain": [
+                  "input_boolean"
+                ]
+              }
+            ]
+          }
+        },
+        "toggle": {
+          "name": "Toggle",
+          "description": "Toggles the helper on/off.",
+          "fields": {},
+          "target": {
+            "entity": [
+              {
+                "domain": [
+                  "input_boolean"
+                ]
+              }
+            ]
+          }
         }
       }
     },
@@ -2124,75 +2460,6 @@
       }
     },
     {
-      "domain": "conversation",
-      "services": {
-        "process": {
-          "name": "Process",
-          "description": "Launches a conversation from a transcribed text.",
-          "fields": {
-            "text": {
-              "example": "Turn all lights on",
-              "required": true,
-              "selector": {
-                "text": null
-              },
-              "name": "Text",
-              "description": "Transcribed text input."
-            },
-            "language": {
-              "example": "NL",
-              "selector": {
-                "text": null
-              },
-              "name": "Language",
-              "description": "Language of text. Defaults to server language."
-            },
-            "agent_id": {
-              "example": "homeassistant",
-              "selector": {
-                "conversation_agent": null
-              },
-              "name": "Agent",
-              "description": "Conversation agent to process your request. The conversation agent is the brains of your assistant. It processes the incoming text commands."
-            },
-            "conversation_id": {
-              "example": "my_conversation_1",
-              "selector": {
-                "text": null
-              },
-              "name": "Conversation ID",
-              "description": "ID of the conversation, to be able to continue a previous conversation"
-            }
-          },
-          "response": {
-            "optional": true
-          }
-        },
-        "reload": {
-          "name": "Reload",
-          "description": "Reloads the intent configuration.",
-          "fields": {
-            "language": {
-              "example": "NL",
-              "selector": {
-                "text": null
-              },
-              "name": "Language",
-              "description": "Language to clear cached intents for. Defaults to server language."
-            },
-            "agent_id": {
-              "example": "homeassistant",
-              "selector": {
-                "conversation_agent": null
-              },
-              "name": "Agent",
-              "description": "Conversation agent to reload."
-            }
-          }
-        }
-      }
-    },
-    {
       "domain": "logbook",
       "services": {
         "log": {
@@ -2237,212 +2504,22 @@
       }
     },
     {
-      "domain": "script",
-      "services": {
-        "reload": {
-          "name": "Reload",
-          "description": "Reloads all the available scripts.",
-          "fields": {}
-        },
-        "turn_on": {
-          "name": "Turn on",
-          "description": "Runs the sequence of actions defined in a script.",
-          "fields": {},
-          "target": {
-            "entity": [
-              {
-                "domain": [
-                  "script"
-                ]
-              }
-            ]
-          }
-        },
-        "turn_off": {
-          "name": "Turn off",
-          "description": "Stops a running script.",
-          "fields": {},
-          "target": {
-            "entity": [
-              {
-                "domain": [
-                  "script"
-                ]
-              }
-            ]
-          }
-        },
-        "toggle": {
-          "name": "Toggle",
-          "description": "Toggle a script. Starts it, if isn't running, stops it otherwise.",
-          "fields": {},
-          "target": {
-            "entity": [
-              {
-                "domain": [
-                  "script"
-                ]
-              }
-            ]
-          }
-        }
-      }
-    },
-    {
-      "domain": "zone",
-      "services": {
-        "reload": {
-          "name": "Reload",
-          "description": "Reloads zones from the YAML-configuration.",
-          "fields": {}
-        }
-      }
-    },
-    {
-      "domain": "input_boolean",
+      "domain": "input_button",
       "services": {
         "reload": {
           "name": "Reload",
           "description": "Reloads helpers from the YAML-configuration.",
           "fields": {}
         },
-        "turn_on": {
-          "name": "Turn on",
-          "description": "Turns on the helper.",
+        "press": {
+          "name": "Press",
+          "description": "Mimics the physical button press on the device.",
           "fields": {},
           "target": {
             "entity": [
               {
                 "domain": [
-                  "input_boolean"
-                ]
-              }
-            ]
-          }
-        },
-        "turn_off": {
-          "name": "Turn off",
-          "description": "Turns off the helper.",
-          "fields": {},
-          "target": {
-            "entity": [
-              {
-                "domain": [
-                  "input_boolean"
-                ]
-              }
-            ]
-          }
-        },
-        "toggle": {
-          "name": "Toggle",
-          "description": "Toggles the helper on/off.",
-          "fields": {},
-          "target": {
-            "entity": [
-              {
-                "domain": [
-                  "input_boolean"
-                ]
-              }
-            ]
-          }
-        }
-      }
-    },
-    {
-      "domain": "timer",
-      "services": {
-        "reload": {
-          "name": "Reload",
-          "description": "Reloads timers from the YAML-configuration.",
-          "fields": {}
-        },
-        "start": {
-          "name": "Start",
-          "description": "Starts a timer.",
-          "fields": {
-            "duration": {
-              "example": "00:01:00 or 60",
-              "selector": {
-                "text": null
-              },
-              "name": "Duration",
-              "description": "Duration the timer requires to finish. [optional]."
-            }
-          },
-          "target": {
-            "entity": [
-              {
-                "domain": [
-                  "timer"
-                ]
-              }
-            ]
-          }
-        },
-        "pause": {
-          "name": "Pause",
-          "description": "Pauses a timer.",
-          "fields": {},
-          "target": {
-            "entity": [
-              {
-                "domain": [
-                  "timer"
-                ]
-              }
-            ]
-          }
-        },
-        "cancel": {
-          "name": "Cancel",
-          "description": "Cancels a timer.",
-          "fields": {},
-          "target": {
-            "entity": [
-              {
-                "domain": [
-                  "timer"
-                ]
-              }
-            ]
-          }
-        },
-        "finish": {
-          "name": "Finish",
-          "description": "Finishes a timer.",
-          "fields": {},
-          "target": {
-            "entity": [
-              {
-                "domain": [
-                  "timer"
-                ]
-              }
-            ]
-          }
-        },
-        "change": {
-          "name": "Change",
-          "description": "Changes a timer.",
-          "fields": {
-            "duration": {
-              "default": 0,
-              "required": true,
-              "example": "00:01:00, 60 or -60",
-              "selector": {
-                "text": null
-              },
-              "name": "Duration",
-              "description": "Duration to add or subtract to the running timer."
-            }
-          },
-          "target": {
-            "entity": [
-              {
-                "domain": [
-                  "timer"
+                  "input_button"
                 ]
               }
             ]
@@ -2517,22 +2594,192 @@
       }
     },
     {
-      "domain": "input_button",
+      "domain": "automation",
+      "services": {
+        "trigger": {
+          "name": "Trigger",
+          "description": "Triggers the actions of an automation.",
+          "fields": {
+            "skip_condition": {
+              "default": true,
+              "selector": {
+                "boolean": null
+              },
+              "name": "Skip conditions",
+              "description": "Defines whether or not the conditions will be skipped."
+            }
+          },
+          "target": {
+            "entity": [
+              {
+                "domain": [
+                  "automation"
+                ]
+              }
+            ]
+          }
+        },
+        "toggle": {
+          "name": "Toggle",
+          "description": "Toggles (enable / disable) an automation.",
+          "fields": {},
+          "target": {
+            "entity": [
+              {
+                "domain": [
+                  "automation"
+                ]
+              }
+            ]
+          }
+        },
+        "turn_on": {
+          "name": "Turn on",
+          "description": "Enables an automation.",
+          "fields": {},
+          "target": {
+            "entity": [
+              {
+                "domain": [
+                  "automation"
+                ]
+              }
+            ]
+          }
+        },
+        "turn_off": {
+          "name": "Turn off",
+          "description": "Disables an automation.",
+          "fields": {
+            "stop_actions": {
+              "default": true,
+              "selector": {
+                "boolean": null
+              },
+              "name": "Stop actions",
+              "description": "Stops currently running actions."
+            }
+          },
+          "target": {
+            "entity": [
+              {
+                "domain": [
+                  "automation"
+                ]
+              }
+            ]
+          }
+        },
+        "reload": {
+          "name": "Reload",
+          "description": "Reloads the automation configuration.",
+          "fields": {}
+        }
+      }
+    },
+    {
+      "domain": "backup",
+      "services": {
+        "create": {
+          "name": "Create backup",
+          "description": "Creates a new backup.",
+          "fields": {}
+        }
+      }
+    },
+    {
+      "domain": "input_text",
       "services": {
         "reload": {
           "name": "Reload",
           "description": "Reloads helpers from the YAML-configuration.",
           "fields": {}
         },
+        "set_value": {
+          "name": "Set",
+          "description": "Sets the value.",
+          "fields": {
+            "value": {
+              "required": true,
+              "example": "This is an example text",
+              "selector": {
+                "text": null
+              },
+              "name": "Value",
+              "description": "The target value."
+            }
+          },
+          "target": {
+            "entity": [
+              {
+                "domain": [
+                  "input_text"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "domain": "button",
+      "services": {
         "press": {
           "name": "Press",
-          "description": "Mimics the physical button press on the device.",
+          "description": "Press the button entity.",
           "fields": {},
           "target": {
             "entity": [
               {
                 "domain": [
-                  "input_button"
+                  "button"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "domain": "switch",
+      "services": {
+        "turn_off": {
+          "name": "Turn off",
+          "description": "Turns a switch off.",
+          "fields": {},
+          "target": {
+            "entity": [
+              {
+                "domain": [
+                  "switch"
+                ]
+              }
+            ]
+          }
+        },
+        "turn_on": {
+          "name": "Turn on",
+          "description": "Turns a switch on.",
+          "fields": {},
+          "target": {
+            "entity": [
+              {
+                "domain": [
+                  "switch"
+                ]
+              }
+            ]
+          }
+        },
+        "toggle": {
+          "name": "Toggle",
+          "description": "Toggles a switch on/off.",
+          "fields": {},
+          "target": {
+            "entity": [
+              {
+                "domain": [
+                  "switch"
                 ]
               }
             ]
@@ -2645,106 +2892,6 @@
       }
     },
     {
-      "domain": "input_text",
-      "services": {
-        "reload": {
-          "name": "Reload",
-          "description": "Reloads helpers from the YAML-configuration.",
-          "fields": {}
-        },
-        "set_value": {
-          "name": "Set",
-          "description": "Sets the value.",
-          "fields": {
-            "value": {
-              "required": true,
-              "example": "This is an example text",
-              "selector": {
-                "text": null
-              },
-              "name": "Value",
-              "description": "The target value."
-            }
-          },
-          "target": {
-            "entity": [
-              {
-                "domain": [
-                  "input_text"
-                ]
-              }
-            ]
-          }
-        }
-      }
-    },
-    {
-      "domain": "button",
-      "services": {
-        "press": {
-          "name": "Press",
-          "description": "Press the button entity.",
-          "fields": {},
-          "target": {
-            "entity": [
-              {
-                "domain": [
-                  "button"
-                ]
-              }
-            ]
-          }
-        }
-      }
-    },
-    {
-      "domain": "switch",
-      "services": {
-        "turn_off": {
-          "name": "Turn off",
-          "description": "Turns a switch off.",
-          "fields": {},
-          "target": {
-            "entity": [
-              {
-                "domain": [
-                  "switch"
-                ]
-              }
-            ]
-          }
-        },
-        "turn_on": {
-          "name": "Turn on",
-          "description": "Turns a switch on.",
-          "fields": {},
-          "target": {
-            "entity": [
-              {
-                "domain": [
-                  "switch"
-                ]
-              }
-            ]
-          }
-        },
-        "toggle": {
-          "name": "Toggle",
-          "description": "Toggles a switch on/off.",
-          "fields": {},
-          "target": {
-            "entity": [
-              {
-                "domain": [
-                  "switch"
-                ]
-              }
-            ]
-          }
-        }
-      }
-    },
-    {
       "domain": "counter",
       "services": {
         "increment": {
@@ -2819,16 +2966,6 @@
       }
     },
     {
-      "domain": "backup",
-      "services": {
-        "create": {
-          "name": "Create backup",
-          "description": "Creates a new backup.",
-          "fields": {}
-        }
-      }
-    },
-    {
       "domain": "input_datetime",
       "services": {
         "reload": {
@@ -2884,6 +3021,89 @@
                 ]
               }
             ]
+          }
+        }
+      }
+    },
+    {
+      "domain": "notify",
+      "services": {
+        "persistent_notification": {
+          "name": "Send a persistent notification",
+          "description": "Sends a notification that is visible in the **Notifications** panel.",
+          "fields": {
+            "message": {
+              "required": true,
+              "example": "The garage door has been open for 10 minutes.",
+              "selector": {
+                "text": null
+              },
+              "name": "Message",
+              "description": "Message body of the notification."
+            },
+            "title": {
+              "example": "Your Garage Door Friend",
+              "selector": {
+                "text": null
+              },
+              "name": "Title",
+              "description": "Title of the notification."
+            },
+            "data": {
+              "example": "platform specific",
+              "selector": {
+                "object": null
+              },
+              "name": "Data",
+              "description": "Some integrations provide extended functionality. For information on how to use _data_, refer to the integration documentation.."
+            }
+          }
+        },
+        "notify": {
+          "name": "Send a notification with notify",
+          "description": "Sends a notification message using the notify service.",
+          "fields": {
+            "message": {
+              "required": true,
+              "example": "The garage door has been open for 10 minutes.",
+              "selector": {
+                "text": null
+              }
+            },
+            "title": {
+              "example": "Your Garage Door Friend",
+              "selector": {
+                "text": null
+              }
+            },
+            "target": {
+              "example": "platform specific",
+              "selector": {
+                "object": null
+              }
+            },
+            "data": {
+              "example": "platform specific",
+              "selector": {
+                "object": null
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "domain": "synapse",
+      "services": {
+        "reload": {
+          "name": "",
+          "description": "Ask synapse application to re-send the entity list. Sent to all connected by default",
+          "fields": {
+            "app": {
+              "description": "The name of the app to target for the reload. If omitted, targets all apps.",
+              "example": "home_automation",
+              "required": false
+            }
           }
         }
       }
@@ -3120,89 +3340,6 @@
                 ]
               }
             ]
-          }
-        }
-      }
-    },
-    {
-      "domain": "notify",
-      "services": {
-        "persistent_notification": {
-          "name": "Send a persistent notification",
-          "description": "Sends a notification that is visible in the **Notifications** panel.",
-          "fields": {
-            "message": {
-              "required": true,
-              "example": "The garage door has been open for 10 minutes.",
-              "selector": {
-                "text": null
-              },
-              "name": "Message",
-              "description": "Message body of the notification."
-            },
-            "title": {
-              "example": "Your Garage Door Friend",
-              "selector": {
-                "text": null
-              },
-              "name": "Title",
-              "description": "Title of the notification."
-            },
-            "data": {
-              "example": "platform specific",
-              "selector": {
-                "object": null
-              },
-              "name": "Data",
-              "description": "Some integrations provide extended functionality. For information on how to use _data_, refer to the integration documentation.."
-            }
-          }
-        },
-        "notify": {
-          "name": "Send a notification with notify",
-          "description": "Sends a notification message using the notify service.",
-          "fields": {
-            "message": {
-              "required": true,
-              "example": "The garage door has been open for 10 minutes.",
-              "selector": {
-                "text": null
-              }
-            },
-            "title": {
-              "example": "Your Garage Door Friend",
-              "selector": {
-                "text": null
-              }
-            },
-            "target": {
-              "example": "platform specific",
-              "selector": {
-                "object": null
-              }
-            },
-            "data": {
-              "example": "platform specific",
-              "selector": {
-                "object": null
-              }
-            }
-          }
-        }
-      }
-    },
-    {
-      "domain": "synapse",
-      "services": {
-        "reload": {
-          "name": "",
-          "description": "Ask synapse application to re-send the entity list. Sent to all connected by default",
-          "fields": {
-            "app": {
-              "description": "The name of the app to target for the reload. If omitted, targets all apps.",
-              "example": "home_automation",
-              "required": false
-            }
           }
         }
       }

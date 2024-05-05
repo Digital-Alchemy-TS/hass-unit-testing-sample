@@ -9,6 +9,8 @@ import timezone from "dayjs/plugin/timezone";
 import utc from "dayjs/plugin/utc";
 import weekOfYear from "dayjs/plugin/weekOfYear";
 
+import { ScheduledActions } from "./logic/scheduled-actions";
+
 dayjs.extend(weekOfYear);
 dayjs.extend(advancedFormat);
 dayjs.extend(isBetween);
@@ -24,7 +26,9 @@ export const UNIT_TESTING_APP = CreateApplication({
   },
   libraries: [LIB_HASS, LIB_SYNAPSE, LIB_AUTOMATION],
   name: "unit_testing",
-  services: {},
+  services: {
+    scheduled: ScheduledActions,
+  },
 });
 
 declare module "@digital-alchemy/core" {

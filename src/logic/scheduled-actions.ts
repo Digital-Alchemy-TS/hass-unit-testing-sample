@@ -19,7 +19,7 @@ export function ScheduledActions({ hass, scheduler, automation }: TServiceParams
     // check to see if it's between 5AM & 8PM
     // outside that window, things should be
     const [NOW, PM8, AM5] = automation.utils.shortTime(["NOW", "PM8", "AM5"]);
-    if (!NOW.isBetween(AM5, PM8)) {
+    if (NOW.isBetween(AM5, PM8)) {
       return;
     }
     await wakeUpSeriously();
