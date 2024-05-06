@@ -1,6 +1,6 @@
 import { CronExpression, TServiceParams } from "@digital-alchemy/core";
 
-export function ScheduledActions({ hass, scheduler, automation }: TServiceParams) {
+export function ScheduledActions({ hass, scheduler, automation, logger }: TServiceParams) {
   const location = hass.entity.byId("sensor.location");
   scheduler.cron({
     async exec() {
@@ -16,6 +16,7 @@ export function ScheduledActions({ hass, scheduler, automation }: TServiceParams
     if (new_state.state === "off" || location.state !== "home") {
       return;
     }
+    logger.warn(`smoke detector activated`);
     // check to see if it's between 5AM & 8PM
     // outside that window, things should be
     const [NOW, PM8, AM5] = automation.utils.shortTime(["NOW", "PM8", "AM5"]);

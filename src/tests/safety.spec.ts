@@ -13,22 +13,25 @@ describe("Scheduled Actions", () => {
   });
 
   describe("Smoke Detector", () => {
-    // list of hours to not not receive errors during
-    const NO_ALERTS = new Set([5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]);
+    const NO_ALERT_HOURS = new Set([5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]);
     const LOCATIONS = ["away", "home"] as const;
 
     beforeEach(() => {
       jest.useFakeTimers();
     });
 
+    //
     // Generate 2 batches of tests:
     // - while home
     // - while away
-    // each batch will have a test for each hour of the day, ensuring the action does or does not happen
+    //
     LOCATIONS.forEach(location => {
       describe("at " + location, () => {
+        //
+        // each batch will have a test for each hour of the day, ensuring the action does or does not happen
+        //
         for (let hour = 0; hour < 24; hour++) {
-          const prefix = location === "home" && NO_ALERTS.has(hour) ? "does" : "does not";
+          const prefix = location === "home" && NO_ALERT_HOURS.has(hour) ? "does" : "does not";
           const formatted = hour > 9 ? hour.toString() : `0${hour.toString()}`;
 
           // the actual test!
@@ -53,7 +56,7 @@ describe("Scheduled Actions", () => {
                   state: "on",
                 });
                 // observe result
-                if (NO_ALERTS.has(hour) || location !== "home") {
+                if (NO_ALERT_HOURS.has(hour) || location !== "home") {
                   expect(turnOn).not.toHaveBeenCalledWith({ entity_id: ["scene.bedroom_high"] });
                 } else {
                   expect(turnOn).toHaveBeenCalledWith({ entity_id: ["scene.bedroom_high"] });
