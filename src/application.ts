@@ -9,6 +9,7 @@ import timezone from "dayjs/plugin/timezone";
 import utc from "dayjs/plugin/utc";
 import weekOfYear from "dayjs/plugin/weekOfYear";
 
+import { MiscEvents } from "./logic/misc-events";
 import { Safety } from "./logic/safety";
 import { ScheduledActions } from "./logic/scheduled-actions";
 
@@ -28,6 +29,7 @@ export const UNIT_TESTING_APP = CreateApplication({
   libraries: [LIB_HASS, LIB_SYNAPSE, LIB_AUTOMATION],
   name: "unit_testing",
   services: {
+    events: MiscEvents,
     safety: Safety,
     scheduled: ScheduledActions,
   },

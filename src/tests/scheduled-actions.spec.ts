@@ -19,7 +19,6 @@ describe("Scheduled Actions", () => {
 
     it("turns on porch light at 8PM", async () => {
       expect.assertions(1);
-
       await runner(
         () => {
           // 7:59:59 PM
@@ -28,6 +27,23 @@ describe("Scheduled Actions", () => {
         },
         async ({ hass }) => {
           const turnOn = jest.spyOn(hass.call.switch, "turn_on");
+          // move clock forward by 2 seconds
+          jest.advanceTimersByTime(2000);
+          expect(turnOn).toHaveBeenCalledWith({ entity_id: "switch.porch_light" });
+        },
+      );
+    });
+
+    it("turns off porch light at 5AM", async () => {
+      expect.assertions(1);
+      await runner(
+        () => {
+          // 4:59:59 AM
+          jest.setSystemTime(dayjs("2024-01-01 04:59:59").toDate());
+          jest.runOnlyPendingTimersAsync();
+        },
+        async ({ hass }) => {
+          const turnOn = jest.spyOn(hass.call.switch, "turn_off");
           // move clock forward by 2 seconds
           jest.advanceTimersByTime(2000);
           expect(turnOn).toHaveBeenCalledWith({ entity_id: "switch.porch_light" });

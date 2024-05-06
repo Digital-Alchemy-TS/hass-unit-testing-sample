@@ -18,3 +18,5 @@ npm install
 cp ./hass/types.d.ts ./node_modules/@digital-alchemy/hass/dist/dynamic.d.ts
 npm run test
 ```
+
+![passing tests](/assets/schedule-test.png)
